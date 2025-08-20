@@ -1,40 +1,657 @@
 {
   "questions": [
     {
-      "id": 1,
-      "prompt": "What special prop should always be included for lists of elements?",
-      "answers": ["id", "name", "key", "prop"],
-      "correctIndex": 2
+      "prompt": "string",
+      "answers": {
+        "prompt": "",
+        "answer1": "",
+        "answer2": "",
+        "answer3": "",
+        "answer4": "",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 10
     },
     {
-      "id": 2,
-      "prompt": "A React component is a function that returns ______.",
-      "answers": ["HTML", "JSX", "props", "state"],
-      "correctIndex": 1
+      "prompt": "string",
+      "answers": {
+        "prompt": "",
+        "answer1": "",
+        "answer2": "",
+        "answer3": "",
+        "answer4": "",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 11
     },
     {
-      "id": 3,
-      "prompt": "Which event handler will run when a user is finished filling out a form?",
-      "answers": ["onSubmit", "onClick", "onChange", "onForm"],
-      "correctIndex": 0
+      "prompt": "string",
+      "answers": {
+        "prompt": "",
+        "answer1": "",
+        "answer2": "",
+        "answer3": "",
+        "answer4": "",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 12
     },
     {
-      "id": 4,
-      "prompt": "______ is a tool that transpiles JSX into valid JavaScript.",
-      "answers": ["React", "Babel", "Webpack", "ES6"],
-      "correctIndex": 1
+      "prompt": "string",
+      "answers": {
+        "prompt": "",
+        "answer1": "",
+        "answer2": "",
+        "answer3": "",
+        "answer4": "",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 13
     },
     {
-      "id": 5,
-      "prompt": "What syntax makes it possible to unpack values from arrays, or properties from objects, into distinct variables?",
-      "answers": ["spread", "key-value", "coalescing", "destructuring"],
-      "correctIndex": 3
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 14
     },
     {
-      "id": 6,
-      "prompt": "Returning different elements from a component depending on the state of your application is known as _____ rendering.",
-      "answers": ["voodoo", "conditional", "reactive", "controlled"],
-      "correctIndex": 1
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 15
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 16
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 17
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 18
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 19
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 20
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 21
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 22
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 23
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 24
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 25
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 26
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 27
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 28
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 29
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 30
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 31
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 32
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 33
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 34
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": "1"
+      },
+      "correctIndex": 1,
+      "id": 35
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 36
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 37
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 38
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 39
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 40
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 41
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 42
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 43
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 44
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 45
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 46
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "",
+        "answer1": "",
+        "answer2": "",
+        "answer3": "",
+        "answer4": "",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 47
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "",
+        "answer1": "",
+        "answer2": "",
+        "answer3": "",
+        "answer4": "",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 48
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "",
+        "answer1": "",
+        "answer2": "",
+        "answer3": "",
+        "answer4": "",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 49
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "",
+        "answer1": "",
+        "answer2": "",
+        "answer3": "",
+        "answer4": "",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 50
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 51
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 52
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 53
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 54
+    },
+    {
+      "prompt": "string",
+      "answers": {
+        "prompt": "br",
+        "answer1": "name of an animal",
+        "answer2": "Everest",
+        "answer3": "book",
+        "answer4": "color",
+        "correctIndex": 0
+      },
+      "correctIndex": 1,
+      "id": 55
+    },
+    {
+      "prompt": "br",
+      "answers": [
+        "name of an animal",
+        "Everest",
+        "book",
+        "color"
+      ],
+      "correctIndex": 0,
+      "id": 56
+    },
+    {
+      "prompt": "Js",
+      "answers": [
+        "Jesus ",
+        "yesuss",
+        "son of David",
+        "root of Jesse"
+      ],
+      "correctIndex": 1,
+      "id": 57
+    },
+    {
+      "prompt": "Js",
+      "answers": [
+        "Jesus ",
+        "yesuss",
+        "son of David",
+        "root of Jesse"
+      ],
+      "correctIndex": 1,
+      "id": 58
+    },
+    {
+      "prompt": "br",
+      "answers": [
+        "Jesus ",
+        "Everest",
+        "book",
+        "color"
+      ],
+      "correctIndex": 0,
+      "id": 59
+    },
+    {
+      "prompt": "lm",
+      "answers": [
+        "best player",
+        "from argentina",
+        "best dribbler",
+        "short"
+      ],
+      "correctIndex": 0,
+      "id": 60
     }
   ]
 }

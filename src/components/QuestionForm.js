@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState,useEffect,useRef } from "react";
 
-function QuestionForm(props) {
+function QuestionForm({ handleNewQuiz}) {
   const [formData, setFormData] = useState({
     prompt: "",
     answer1: "",
@@ -17,14 +17,43 @@ function QuestionForm(props) {
     });
   }
 
+  const isMounted = useRef(true);
+
+  useEffect(() => {
+    return () => {
+      isMounted.current = false; // Cleanup on unmount
+    };
+  }, []);
+
   function handleSubmit(event) {
     event.preventDefault();
-    console.log(formData);
-  }
+          
+      fetch("http://localhost:4000/questions" ,{
+        method :"POST",
+           headers :{
+           "Content-Type": "application/json" },
+           body:JSON.stringify({
+            prompt: formData.prompt,
+      answers: [
+        formData.answer1,
+        formData.answer2,
+        formData.answer3,
+        formData.answer4,
+      ],
+      correctIndex: Number(formData.correctIndex),
+         }),
+      })
+      .then((res) => res.json())
+      .then((newQuiz) => {
+        if (isMounted.current && typeof handleNewQuiz === "function") {
+          handleNewQuiz(newQuiz);
+        }
+  })
+}
 
   return (
     <section>
-      <h1>New Question</h1>
+      <h1>New Quiz</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Prompt:
@@ -89,5 +118,6 @@ function QuestionForm(props) {
     </section>
   );
 }
+
 
 export default QuestionForm;
